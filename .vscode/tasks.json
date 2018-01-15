@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g", "tutorial.cpp"
+                "-std=gnu++0x", "-Wall", "-Werror", "-g", "tutorial.cpp"
             ],
             "group": {
                 "kind": "build",
